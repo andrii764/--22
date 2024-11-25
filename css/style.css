@@ -12,7 +12,8 @@ body * {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1440px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -27,4 +28,18 @@ p:first-line {
 h1 {
     text-align: center;
     margin: 0 0 35px 0;
+}
+
+section {
+    padding: 0 0 45px 0;
+}
+
+img {
+    min-width: 300px;
+}
+
+.img__container {
+    width: fit-content;
+    padding: 10px 0px;
+    margin: 0 auto;
 }
