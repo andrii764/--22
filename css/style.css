@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #eee;
+    background-color: #333;
+}
+
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+p:first-line {
+    text-indent: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 35px 0;
+}
